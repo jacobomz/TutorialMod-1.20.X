@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component>
+  <configuration default="false" factoryName="Application" name="runData" singleton="false" type="Application">
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.bootstrap.ForgeBootstrap"/>
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -Djava.net.preferIPv6Addresses=system"/>
+    <option name="PROGRAM_PARAMETERS" value="--launchTarget forge_userdev_data --assetIndex 16 --assetsDir &quot;C:\Users\Jacobo M\.gradle\caches\forge_gradle\assets&quot; --gameDir . --mod tutorialmod --all --output &quot;C:\Users\Jacobo M\Documents\ModsMC\Mod-1.20.X\src\generated\resources&quot; --existing &quot;C:\Users\Jacobo M\Documents\ModsMC\Mod-1.20.X\src\main\resources&quot;"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\run-data"/>
+    <module name="Mod-1.20.X.main"/>
+    <envs>
+      <env name="MOD_CLASSES" value="$PROJECT_DIR$\build\sourcesSets\main"/>
+      <env name="MCP_MAPPINGS" value="parchment_2024.06.16-1.20.6"/>
+    </envs>
+    <method v="2">
+      <option enabled="true" name="Make"/>
+      <option enabled="true" externalProjectPath="$PROJECT_DIR$" name="Gradle.BeforeRunTask" tasks=":prepareRunDataCompile"/>
+    </method>
+  </configuration>
+</component>
